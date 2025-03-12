@@ -35,7 +35,7 @@ plugins:
   - uses:
       - plugin: ubiquity-os-marketplace/command-ask@main
         with:
-          model: openai/o1-mini
+          model: anthropic/claude-3.7-sonnet
           openAiBaseUrl: https://openrouter.ai/api/v1
           similarityThreshold: 0.9
           maxTokens: 10000
